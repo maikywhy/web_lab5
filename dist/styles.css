@@ -1,0 +1,59 @@
+@import 'normalize.css';
+
+body {
+            margin: 0; /* Видалити відступи */
+            height: 100vh; /* Задати висоту на всю висоту вікна */
+            display: flex; /* Використовувати flexbox для центровання вмісту */
+            justify-content: center; /* Вирівнювання по горизонталі */
+            align-items: center; /* Вирівнювання по вертикалі */
+            background: linear-gradient(135deg, #7E07A9, #67237F, #52026E, #AC3BD4, #B764D4); /* Градієнтний фон */
+        }
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+
+    li {
+        margin: 0 15px;
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+    .col {
+        flex: 1;
+        padding: 10px;
+        min-width: 250px;
+    }
+}
+

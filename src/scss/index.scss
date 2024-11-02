@@ -1,0 +1,71 @@
+@import './normalize.css';
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  &__title {
+    color: #333;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+}
+
+.section {
+  margin-bottom: 20px;
+
+  &__title {
+    color: #333;
+    font-size: 1.5em;
+  }
+
+  &__content {
+    font-family: Arial, sans-serif;
+    color: #555;
+  }
+}
+
+.bio {
+  &__image {
+    width: 100px;
+    height: 100px;
+  }
+  &__text {
+    font-size: 1em;
+    color: #666;
+  }
+}
+
+.bio-image {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+}
+
+.nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  li a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #7E07A9, #67237F, #52026E, #AC3BD4, #B764D4);
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  color: #333;
+}
+
+
